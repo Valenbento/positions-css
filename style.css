@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +23,8 @@ header {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    position: fixed;
+    z-index: 10;
 }
 
 
@@ -39,6 +42,14 @@ ul {
     list-style: none;
     display: flex;
     gap: 4rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 14rem;
 }
 
 a {
@@ -59,11 +70,15 @@ li:hover {
 main {
     background-color: aliceblue;
     padding-block: 5rem;
+     padding-top: 14rem;
+
+    
 }
 
 .main-container {
    max-width: 1220px;
    margin-inline: auto;
+
 }
 
 p {
@@ -102,5 +117,13 @@ section{
         position:relative;
         top: 3rem;
         left: 5rem;
+    }
+}
+
+#absolute{
+    .purple{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
     }
 }
