@@ -32,9 +32,21 @@
 
     <main>
 <div class="main-container">
-       <section id="static"></section>
+       <section id="static">
        <h2>Position Static</h2>
-       <p>No CSS, o valor position: static é o comportamento padrão de todos os elementos HTML. Isso significa que o elemento é posicionado de acordo com o fluxo normal da página, sem a possibilidade de alterar sua posição com propriedades como top, right, bottom ou left. Em outras palavras, um elemento com position: static não é afetado por coordenadas de posicionamento e não cria um novo contexto de empilhamento (stacking context). Esse tipo de posicionamento é ideal quando não se deseja manipular a localização do elemento manualmente, deixando o navegador organizar os elementos de forma natural, de cima para baixo e da esquerda para a direita.</p>
+       <p>No CSS, o valor <strong>position: static</strong> é o comportamento <mark>padrão de todos os elementos HTML.</mark> Isso significa que o elemento é posicionado de acordo com o fluxo normal da página, sem a possibilidade de alterar sua posição com propriedades como top, right, bottom ou left. Em outras palavras, um elemento com position: static não é afetado por coordenadas de posicionamento e não cria um novo contexto de empilhamento (stacking context). Esse tipo de posicionamento é ideal quando não se deseja manipular a localização do elemento manualmente, deixando o navegador organizar os elementos de forma natural, de cima para baixo e da esquerda para a direita.</p>
+       </section>
+
+       <section id="relative">
+<h2>Position Relative:</h2>
+
+<div></div>
+<div class="purple"></div>
+<div></div>
+
+<p>No CSS, o <strong>position: relative</strong> permite posicionar um elemento <mark> em relação à sua posição original</mark> no fluxo normal da página. Isso significa que, ao aplicar propriedades como top, right, bottom ou left, o elemento se move a partir do ponto onde normalmente estaria, sem afetar o espaço que ocupa no layout — ou seja, os outros elementos continuam se comportando como se ele ainda estivesse em sua posição original. Além disso, quando um elemento tem position: relative, ele pode servir como referência de posicionamento (ou container de referência) para elementos filhos com position: absolute, o que é muito útil para criar layouts mais controlados e precisos.</p>
+       </section>
+
 </div>
     </main>
 </body>
