@@ -127,3 +127,13 @@ section{
         left: 2rem;
     }
 }
+
+.arrow{
+    background-color: pink;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+}
